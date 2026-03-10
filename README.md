@@ -31,12 +31,13 @@ cat > index.html
 ```shell
 hii nginx file
 ```
+ctrl + c
 
 ## 4. Write Dockerfile
 
 ```shell
 nano dockerfile
-```shell
+```
 
 Then Copy & Paste In dockerfile
 ubuntu:22.04  -- this is ubuntu version
