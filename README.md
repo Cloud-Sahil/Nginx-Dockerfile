@@ -1,4 +1,4 @@
-# Mysql-Dockerfile
+# Nginx-Dockerfile
 
 ---
 ## 1. Launch EC2 Instances  -- Ubuntu
