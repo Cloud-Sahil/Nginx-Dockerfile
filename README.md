@@ -24,12 +24,19 @@ apt install docker.io -y
 ```
 this command is un-official
 
+## 3. Write index.html
+```shell
+cat > index.html
+```
+```shell
+hii nginx file
+```
 
-## 3. Write Dockerfile
+## 4. Write Dockerfile
 
 ```shell
 nano dockerfile
-```
+```shell
 
 Then Copy & Paste In dockerfile
 ubuntu:22.04  -- this is ubuntu version
@@ -51,26 +58,26 @@ CMD ["nginx", "-g", "daemon off;"]
 ```
 then ctrl save & exit 
 
-## 4. Build Dockerfile
+## 5. Build Dockerfile
 
 ```shell
 docker build . -t new:latest
 ```
 
-## 5. check docker images
+## 6. check docker images
 
 ```shell
 docker images
 ```
 
-## 6. Docker Container run 
+## 7. Docker Container run 
 
 ```shell
 docker run -d -P new:latest
 ```
 -d means detached mode 
 
-## 7. check docker container
+## 8. check docker container
 
 ```shell
 docker ps
